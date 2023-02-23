@@ -1,0 +1,312 @@
+@import url('https://fonts.googleapis.com/css2?family=Amaranth:wght@400;700&family=Courgette&family=Kavoon&family=Quicksand:wght@500&display=swap');
+
+.navbar{
+    background-color: #293754;
+}
+
+.navbar-collapse{
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar .container .navbar-nav .nav-item .nav-link{
+    color: white;
+}
+
+.navbar .container .navbar-toggler .navbar-toggler-icon{
+    color: white !important;
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h1{
+    font-size: 2.8rem;
+}
+
+.hero{
+    background-color: #F1F1EA;
+    min-height: 450px;
+    text-align: center;
+}
+
+.hero-principal{
+    padding: 3rem;
+}
+
+.hero-principal h1{
+    font-family: 'Kavoon', cursive;
+}
+
+.hero-principal h2{
+    font-size: 2.1rem;
+    font-family: 'Courgette', cursive;
+    color: #7E6991;
+}
+
+.session-oscura{
+    background-color: #293754;
+    color: white;
+}
+
+.sobre-mi{
+    height: 500px;
+    padding: 3px;
+}
+
+.sobre-mi .contenedor{
+    max-width: 600px;
+    text-align: center;
+}
+
+.session-titulo{
+    font-family: 'Kavoon', cursive;
+    padding: 5px 0;
+}
+
+.session-texto{
+    font-family: 'Amaranth', sans-serif;
+    font-size: 1.1rem;
+}
+
+.experiencia{
+    padding: 40px;
+}
+
+.seccion-clara{
+    color: #0000;
+    background-color: #fff;
+}
+
+.icon-person{
+    background-color: #7E6991;
+    padding: 8px 13px;
+    font-size: 1.2rem;
+    border-radius: 50%;
+    color: #F1F1EA;
+}
+
+.session-tittle{
+    font-family: 'Kavoon', cursive;
+    margin-top: 10px;
+    font-size: 1.5rem;
+}
+
+.session-parrafo{
+    font-family: 'Courgette', cursive;
+}
+
+.contenedor-badges{
+    margin: 10px 0;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.badge{
+    margin: 5px;
+}
+
+.experiencia .columna{
+    padding: 20px;
+    border: 2px solid #8080804d;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    transform: all 0.2s ease-in;
+}
+
+.experiencia .columna:hover{
+    color: white;
+    background-color: #1b1b32;
+}
+
+.proyectos-recientes{
+    padding: 40px;
+}
+
+.texto-negro{
+    color: black;
+}
+
+.seccion-titulo{
+    font-family: 'Kavoon', cursive;
+}
+
+.seccion-descripcion{
+    font-size: 1.2rem;
+    color: #584e4e;
+    font-family: 'Amaranth', sans-serif;
+}
+
+.proyectos-recientes img{
+    height: 100%;
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    display: block;
+    transition: all 0.2s ease;
+}
+
+.proyectos-contenedor{
+    padding-top: 60px;
+    margin-bottom: 40px;
+    color: black;
+}
+
+.proyecto{
+    position: relative;
+}
+
+.overlay{
+    transition: all 0.2s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.overlay p{
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+.proyecto:hover img{
+    opacity: 0.2;
+}
+
+.proyecto:hover .overlay{
+    opacity: 1;
+}
+
+.overlay .iconos-contenedor{
+    display: flex;
+}
+
+.overlay i{
+    color: black;
+    font-size: 60px;
+    margin: 10px;
+}
+
+.contacto .container{
+    max-width: 1100px;
+    min-height: 200px;
+    padding: 20px;
+}
+
+.contacto .rectangulo{
+    margin-top: -5rem;
+    background-color: #7E6991;
+    border-radius: 10px;
+    box-shadow: 0px 1px 4px 1px white;
+}
+
+.contacto .row{
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.contacto .descripcion{
+    color: white;
+    font-size: 1.2rem;
+}
+
+.contacto button{
+    color: white;
+    font-weight: bold;
+    background-color: transparent;
+    border: 2px solid white;
+    padding:  1.25rem 2em;
+    margin: 10px;
+    border-radius: 100px;
+    transition: all 0.2s ease-in-out;
+}
+
+.contacto button:hover{
+    background-color: white;
+    color: black;
+}
+
+.contacto button i{
+    color: white;
+    font-size: 1.3rem;
+    transition: all 0.2s ease-in-out;
+}
+
+.contacto button:hover i{
+    color: black;
+}
+
+footer{
+    min-height: 500px;
+}
+
+.footer-logo{
+    height: 80px;
+    width: 80px;
+    margin: 10px;
+}
+
+.footer-texto{
+    font-size: 1.5rem;
+    padding: 20px;
+    margin-bottom: 30px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.iconos-redes-sociales a{
+    width: 50px;
+    height: 50px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2px;
+    margin: 10px 2px;
+    border: 2px solid white;
+    border-radius: 50%;
+    transition: all 0.2s ease-in;
+}
+
+.iconos-redes-sociales i{
+    color: white;
+    font-size: 1.5rem;
+    transition: all 0.2s ease-in;
+}
+
+.iconos-redes-sociales a:hover{
+    background-color: white;
+    border: 2px solid rgb(13, 110, 253);
+}
+
+.iconos-redes-sociales a:hover i{
+    color: black;
+}
+
+.derechos-de-autor{
+    font-size: 15px;
+    color: #8B8691;
+    padding: 20px;
+}
+
+@media screen and (max-width: 760px){
+    .navbar-brand{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .hero-inferior-img{
+       width: 70%;
+       height: 70%;
+    }
+}
